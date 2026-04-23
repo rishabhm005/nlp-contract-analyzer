@@ -2,7 +2,7 @@
 
 A full-stack web application that extracts key clauses from legal contracts and analyzes them against predefined legal playbooks. The system supports PDF and image uploads, performs OCR for scanned files, detects important clause types, assigns confidence scores, and flags risky or missing terms.
 
-Built as a collaborative academic project and refined as a portfolio-ready standalone version.
+Built as a collaborative academic project, with major contributions in backend integration, clause detection, and deployment.
 
 ---
 
@@ -89,11 +89,11 @@ NLP_PROJECT/
 
 ## My Contributions
 
-* Backend logic integration
-* Clause detection improvements
-* Frontend enhancements
-* Testing and debugging
-* Documentation and deployment
+* Played a major role in backend integration between the React frontend and Flask API
+* Improved clause detection logic for identifying risky and missing legal terms
+* Enhanced PDF / OCR text extraction workflow for better scanned document handling
+* Refined frontend UI for upload flow and results presentation
+* Contributed to testing, debugging, deployment, and final documentation
 
 ---
 
