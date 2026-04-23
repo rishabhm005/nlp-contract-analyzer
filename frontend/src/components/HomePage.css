@@ -1,0 +1,143 @@
+.home-page {
+  width: 100%;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.hero-title {
+  font-size: 2.2rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.gradient-text {
+  color: #3498db;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #2980b9;
+}
+
+.cta-icon {
+  display: none;
+}
+
+/* Features Section */
+.features-section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.feature-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.feature-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.feature-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.feature-icon.blue { background-color: #3498db; }
+.feature-icon.purple { background-color: #9b59b6; }
+.feature-icon.green { background-color: #27ae60; }
+.feature-icon.orange { background-color: #e67e22; }
+.feature-icon.pink { background-color: #e91e63; }
+.feature-icon.teal { background-color: #1abc9c; }
+
+.feature-icon svg {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.feature-title {
+  font-size: 1.3rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.feature-description {
+  color: #666;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+/* CTA Section */
+.cta-section {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.cta-title {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.cta-subtitle {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 1.6rem;
+  }
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
